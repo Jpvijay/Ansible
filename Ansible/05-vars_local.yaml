@@ -1,5 +1,5 @@
 - name: variables concept
-  hosts: local
+  hosts: localhost
   connection: local
   vars:
     COURSE: "AWS"
