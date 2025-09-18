@@ -7,4 +7,4 @@
   tasks:
   - name: printing variables
     ansible.builtin.debug:
-      msg: "on going course:{{ COURSE }} and duration {{ TIME }}"
+      msg: "on going course:{{ COURSE }} and duration {{ time }}"
