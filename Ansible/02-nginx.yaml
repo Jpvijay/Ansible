@@ -1,5 +1,5 @@
 - name: install and run nginx
-  hosts: [test1]
+  hosts: [dev]
   become: yes # gives sudo access
   tasks:
   - name: install nginx
