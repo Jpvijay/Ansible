@@ -1,0 +1,10 @@
+- name: variables concept
+  hosts: dev
+  vars:
+    COURSE: "AWS"
+    TRAINER: "SIVA"
+    time: "120Hrs"
+  tasks:
+  - name: printing variables
+    ansible.builtin.debug:
+      msg: "on going course:{{ COURSE }} and duration {{ TIME }}"
