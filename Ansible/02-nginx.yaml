@@ -1,0 +1,12 @@
+- name: install and run nginix
+  hosts: [test1]
+  become: yes # gives sudo access
+  tasks:
+  - name: install nginix
+    ansible.builtin.package:
+      name: nginix
+      state: present
+  - name: run nginix
+    ansible.builtin.package:
+      name: nginix
+      state: started 
