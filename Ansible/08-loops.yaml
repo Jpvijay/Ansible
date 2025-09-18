@@ -10,5 +10,5 @@
     loop:
     - { name: 'gcc', state: 'absent' }
     - { name: 'git', state: 'present' }
-    - { name: 'sql', state: 'present' }
+    - { name: 'mysql', state: 'present' }
     - { name: 'zip', state: 'absent' }
