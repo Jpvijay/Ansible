@@ -1,5 +1,6 @@
 - name: variables concept
-  hosts: dev
+  hosts: local
+  connection: local
   vars:
     COURSE: "AWS"
     TRAINER: "SIVA"
