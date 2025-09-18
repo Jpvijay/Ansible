@@ -1,5 +1,5 @@
-- name : PING
-  hosts : UAT
+- name: PING
+  hosts: UAT
   tasks:
   - name: ping the server
     ansible.builtin.ping:
