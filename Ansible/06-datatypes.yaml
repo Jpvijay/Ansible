@@ -1,5 +1,6 @@
 - name: DevOps study plan
-  hosts: dev
+  hosts: localhost
+  connection: local
   vars:
     course_name: "DevOps with cloud" #char
     duration: 120                    #num
