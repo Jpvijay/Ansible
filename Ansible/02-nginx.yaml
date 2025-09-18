@@ -10,4 +10,3 @@
     ansible.builtin.package:
       name: nginx
       state: installed
-      enabled: yes
